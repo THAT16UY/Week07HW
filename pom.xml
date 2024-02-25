@@ -4,7 +4,7 @@
 	<artifactId> mysql-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<java.verson>11</java.verson>
+		<java.verson>17</java.verson>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->

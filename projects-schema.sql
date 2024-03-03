@@ -9,14 +9,14 @@ CREATE table project(
 project_id INT auto_increment not null,
 project_name VARCHAR(128) not null,
 estimated_hours DECIMAL(7, 2),
-actual_hour DECIMAL(7, 2),
+actual_hours DECIMAL(7, 2),
 difficulty INT,
 notes TEXT,
 primary key(project_id)
 );
 
 create table category(
-category_id INT not null,
+category_id INT auto_increment not null,
 category_name VARCHAR(128) not null,
 primary key(category_id)
 );
